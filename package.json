@@ -1,0 +1,22 @@
+{
+  "name": "stitch",
+  "version": "0.0.1",
+  "description": "app for stitching together experiences",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kei3po/stitch.git"
+  },
+  "author": "keith nielsen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kei3po/stitch/issues"
+  },
+  "homepage": "https://github.com/kei3po/stitch#readme",
+  "dependencies": {
+    "hapi": "^16.0.1"
+  }
+}
