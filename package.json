@@ -2,13 +2,15 @@
   "name": "stitch",
   "version": "0.0.1",
   "description": "app for stitching together experiences",
-  "main": "app.js",
+  "main": "server.js",
   "scripts": {
+    "build": "babel lib -d dist",
+    "serve": "node dist/server.js",
     "test": "test"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kei3po/stitch.git"
+    "url": "https://github.com/kei3po/stitch.git"
   },
   "author": "keith nielsen",
   "license": "ISC",
@@ -18,5 +20,9 @@
   "homepage": "https://github.com/kei3po/stitch#readme",
   "dependencies": {
     "hapi": "^16.0.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-node6": "^11.0.0"
   }
 }
